@@ -96,6 +96,8 @@ Nếu kết quả nhận được toàn màu xanh là done
 
 Mở file build.gradle
 
+![Init](Images/Init12.png)
+
 Thay 
 
 ```
@@ -123,4 +125,98 @@ jacocoTestReport {
 
 check.dependsOn jacocoTestReport
 ```
+
+Tạo một thư mục tên là .circleci và sau đó tạo 1 file tên là `config.yml` 
+
+![Init](Images/Init13.png)
+
+với nội dung
+
+```yml
+# Java Gradle CircleCI 2.0 configuration file
+#
+# Check https://circleci.com/docs/2.0/language-java/ for more details
+#
+version: 2
+jobs:
+  build:
+    docker:
+      # specify the version you desire here
+      - image: circleci/openjdk:8-jdk
+
+      # Specify service dependencies here if necessary
+      # CircleCI maintains a library of pre-built images
+      # documented at https://circleci.com/docs/2.0/circleci-images/
+      # - image: circleci/postgres:9.4
+
+    working_directory: ~/repo
+
+    environment:
+      # Customize the JVM maximum heap limit
+      JVM_OPTS: -Xmx3200m
+      TERM: dumb
+
+    steps:
+      - checkout
+
+      # Download and cache dependencies
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "build.gradle" }}
+            # fallback to using the latest cache if no exact match is found
+            - v1-dependencies-
+
+      - run: gradle dependencies
+
+      - save_cache:
+          paths:
+            - ~/.gradle
+          key: v1-dependencies-{{ checksum "build.gradle" }}
+
+      # run tests!
+      - run:
+          name: Running test
+          command: gradle test
+
+      # Upload test coverage
+      - run:
+          name: Generate test coverage
+          command: gradle jacocoTestReport
+
+      # Upload test coverage
+      - run:
+          name: Upload test coverage
+          command: bash <(curl -s https://codecov.io/bash) || echo "Codecov did not collect coverage reports"
+
+```
+
+## 5. Đồng bộ project với github repository
+
+Mở command line tại thư mục gốc của dự án và gõ `git init`
+
+
+![Init](Images/Init14.png)
+
+Copy url của repository như hình 
+
+![Init](Images/Init15.png)
+
+Rồi chạy lệnh `git remote add origin <url vừa copy>`
+
+![Init](Images/Init16.png)
+
+Tiếp tục chạy `git pull` để lấy code về
+
+![Init](Images/Init17.png)
+
+Sau đó đẩy code lên
+
+```
+git add *
+git commit -m Init
+git push --set-upstream origin master
+```
+
+Quay lại repository, reload lại trang, ta sẽ thấy code đã được đẩy lên
+
 
