@@ -1,4 +1,4 @@
-1. Implement class `Triangle` với constructor chấp nhận 6 số nguyên là tọa độ 3 đỉnh. Class triangle phải có những hàm `getType()` trả về `Thuong`, `Can`, `Vuong`, `Vuong Can` hoặc `Deu`, hàm `getArea()` trả về diện tích và `getPerimeter()` trả về chu vi của tam giác. Viết chương trình nhập thông tin để test class
+1. Implement class `Triangle` với constructor chấp nhận 6 số nguyên là tọa độ 3 đỉnh. Class triangle phải có những hàm `getType()` trả về `Thuong`, `Can`, `Vuong`, `Vuong Can` hoặc `Deu`, hàm `getArea()` trả về diện tích và `getPerimeter()` trả về chu vi của tam giác
 
 2. Viêt một chương trình nhập vào nhiều dòng, mỗi dòng có 3, 6 hoặc 8 số nguyên là thông tin của hình tròn, hình chữ nhật hoặc tứ giác như sau:
 
@@ -21,30 +21,33 @@
     - Diện tích tam giác ![Diện tích tam giác](https://latex.codecogs.com/gif.latex?S=\sqrt{p(p-1)(p-b)(p-c)}) với p là nửa chu vi
     - Diện tích tứ giác: Nếu vẽ đường chéo của tứ giác thì sẽ tạo ra 2 tam giác --> Tính tổng diện tích của 2 tam giác đó. Có tới 2 cách vẽ đường chéo --> có 2 tổng diện tích --> lấy min.
 
-3. Implement class TimeSpan có
-- Fields
-    - totalSeconds
-- Methods
-    - getDays
-    - getHours
-    - getMinutes
-    - getSeconds
-    - getTotalDays
-    - getTotalHours
-    - getTotalMinutes
-    - getTotalSeconds
+3. Implement các class để quản lý dữ liệu sinh viên như sau
+- Class Student:
+    - Fields:
+        - id
+        - firstName, lastName
+        - birthday
+        - className
+        - address
+- Class StudentBuilder:
+    - Method:
+        - setId(id)
+        - setFirstName(firstName)
+        - setLastName(lastName)
+        - setClassName(className)
+        - setAddress(address)
+        - build()
+- Class StudentController:
+    - Fields:
+        - students
+    - Methods:
+        - addStudent
+        - deleteStudent
+        - saveToFile(path) (Lưu file với định dạng json)
+        - loadFromFile(path)
+        - getById(id)
+        - findByName(name)
+        - findByClassName
+        
 
-- Constructors:
-    - TimeSpan (một đối tượng TimeSpan khác)
-    - totalSeconds
 
-3. Implement class DateTime
-- Fields:
-    - 
-- Constructors:
-    - DateTime (một đối tượng DateTime khác)
-    - year, month, day (throw lỗi nếu số liệu sai)
-    - year, month, day, hour, minute, second (throw lỗi nếu số liệu sai)
-
-- Methods:
-    - Lấy số ngày 
