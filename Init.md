@@ -209,6 +209,20 @@ Tiếp tục chạy `git pull` để lấy code về
 
 ![Init](Images/Init17.png)
 
+Mở file `.gitignore`
+
+![Init](Images/Init25.png)
+
+Thêm các dòng này vào cuối file
+
+```
+build/**
+.gradle/**
+.idea/**
+```
+
+![Init](Images/Init26.png)
+
 Sau đó đẩy code lên
 
 ```
