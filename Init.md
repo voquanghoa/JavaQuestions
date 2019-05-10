@@ -236,3 +236,40 @@ Nếu bạn gặp may, nó sẽ xanh như thế này
 
 ![Init](Images/Init20.png)
 
+Sau đó tìm chổ Project setting, copy mã Embed Code vào đâu đó, ở bước cuối ta sẽ tạo file Readme.md
+
+## 7. Cấu hình Codecov
+
+Vào trang https://codecov.io, đăng nhập bằng tài khoản github sau đó chọn repository hiện ra. 
+
+![Init](Images/Init21.png)
+
+Sau đó vào setting chọn Badge và copy phần mã Markdown
+
+![Init](Images/Init22.png)
+
+## 8. Tạo file Readme.md
+
+Ở thư mục gốc của dự án, ta tạo file `Readme.md` với nội dung
+
+```
+# Java exercise
+
+- Build status <Code từ CircleCI>
+- Test coverage <Code từ CodeCov>
+```
+
+Nhớ thay phần code place holder bằng code tương ứng ở bước trước
+
+Đầy file này lên
+
+![Init](Images/Init23.png)
+
+Tận hưởng thành quả
+
+![Init](Images/Init24.png)
+
+-------
+
+# Done!!
+
