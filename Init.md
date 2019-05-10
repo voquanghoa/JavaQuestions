@@ -212,6 +212,7 @@ Tiếp tục chạy `git pull` để lấy code về
 Sau đó đẩy code lên
 
 ```
+git add .circleci/config.yml
 git add *
 git commit -m Init
 git push --set-upstream origin master
@@ -219,4 +220,19 @@ git push --set-upstream origin master
 
 Quay lại repository, reload lại trang, ta sẽ thấy code đã được đẩy lên
 
+## 6. Build code bằng circleCI
+
+Đăng nhập circle ci, chọn phần Add projects
+
+![Init](Images/Init18.png)
+
+Tìm repository và bấm Set up Project. Sau đó chọn kiểu dự án là Gradle trên Linux
+
+![Init](Images/Init19.png)
+
+Sau đó bấm build Project (Nhớ thắp hương trước khi bấm)
+
+Nếu bạn gặp may, nó sẽ xanh như thế này
+
+![Init](Images/Init20.png)
 
