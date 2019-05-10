@@ -2,7 +2,7 @@
 
 ## 1. Đăng nhập github, chọn New repository
 
-![Init](Images/Init1.png)
+![Init](Images/Init_1.png)
 
 Trong phần New repository, đặt tên Repository, chọn gitignore là java
 
