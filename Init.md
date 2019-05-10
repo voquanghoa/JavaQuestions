@@ -264,7 +264,7 @@ Sau đó vào setting chọn Badge và copy phần mã Markdown
 
 ## 8. Tạo file Readme.md
 
-Ở thư mục gốc của dự án, ta tạo file `Readme.md` với nội dung
+Ở thư mục gốc của dự án, ta tạo file `Readme.md` với nội dung (Chú ý tên file có extension là md, không phải txt)
 
 ```
 # Java exercise
