@@ -22,6 +22,8 @@ Mở command line, đầu tiên hãy chắc chắn rằng mình đang ở master
 
 ![Init](Images/Pl1.png)
 
+Để chắc ăn hơn nữa, chạy `git pull` để đảm bảo mã nguồn được cập nhật với repository
+
 Tạo một branch mới bằng lệnh `git checkout -b <tên branch mới>`
 
 2. Làm bài, thêm mã nguồn, test case... ect
@@ -60,10 +62,18 @@ Review code lại lần nữa, thêm tiêu đề, description rồi bấm nút .
 
 5. Fix comments
 
+Dựa vào comment, sửa lại code và đẩy lên. 
 
+Sau đó:
 
+- Trả lời ngắn gọn `Done`: nếu đã fix
+- Câu hỏi: nếu có thắc mắc
+- Thảo luận: nếu muốn cãi lộn nhiều hơn
 
+!! Chỉ trả lời sau khi push code
 
+6. Done
 
+Task done nếu pull request được merge vào master.
 
-
+Good luck!!
