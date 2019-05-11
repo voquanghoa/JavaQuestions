@@ -8,7 +8,7 @@
 - Về unit test
 
     - Unit test cần đảm bảo đầy đủ các happy cases và unhappy cases
-    - Tên unit test class luôn có dạng `<Tên class cần test>Tes`. Ví dụ cần test cho lớp `Demo` thì tên class unit test sẽ là `DemoTest`
+    - Tên unit test class luôn có dạng `<Tên class cần test>Test`. Ví dụ cần test cho lớp `Demo` thì tên class unit test sẽ là `DemoTest`
     - Tên unit test method luôn có dạng `test_<tên hàm cần hoặc thao tác>`. Ví dụ `test_get_ok`, `test_methodA`
 
 - Về code convention
