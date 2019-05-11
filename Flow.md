@@ -1,23 +1,24 @@
 ## Các nguyên tắc:
 
-- Về working flow
+### 1. Về working flow
 
-    - Chỉ làm 1 bài trên 1 branch và có 1 pull request
-    - Chỉ open pull request nếu CircleCI xanh và CodeCov báo 100%
+- Chỉ làm 1 bài trên 1 branch và có 1 pull request
+- Chỉ open pull request nếu CircleCI xanh và CodeCov báo 100%
 
-- Về unit test
+### 2. Về unit test
 
-    - Unit test cần đảm bảo đầy đủ các happy cases và unhappy cases
-    - Tên unit test class luôn có dạng `<Tên class cần test>Tes`. Ví dụ cần test cho lớp `Demo` thì tên class unit test sẽ là `DemoTest`
-    - Tên unit test method luôn có dạng `test_<tên hàm cần hoặc thao tác>`. Ví dụ `test_get_ok`, `test_methodA`
+- Unit test cần đảm bảo đầy đủ các happy cases và unhappy cases
+- Tên unit test class luôn có dạng `<Tên class cần test>Test`. Ví dụ cần test cho lớp `Demo` thì tên class unit test sẽ là `DemoTest`
+- Tên unit test method luôn có dạng `test_<tên hàm cần hoặc thao tác>`. Ví dụ `test_get_ok`, `test_methodA`
 
-- Về code convention
-    - Phải follow chuẩn convention https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
-    - Nếu không chắc chắn về một convention nào --> đặt câu hỏi, google ...
+### 3. Về code convention
+
+- Phải follow chuẩn convention https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
+- Nếu không chắc chắn về một convention nào --> đặt câu hỏi, google ...
 
 ## Các bước làm bài
 
-1. Về master tạo branch
+### 1. Về master tạo branch
 Mở command line, đầu tiên hãy chắc chắn rằng mình đang ở master bằng cách chạy lệnh `git checkout master`
 
 ![Init](Images/Pl1.png)
@@ -42,9 +43,9 @@ Ví dụ những tên sau là ổn
 - `refactore/use-for-instead-of-recursion`
 - `bugfix/fix-wrong-output-format`
 
-2. Làm bài, thêm mã nguồn, test case... ect
+### 2. Làm bài, thêm mã nguồn, test case... ect
 
-3. Đẩy code lên 
+### 3. Đẩy code lên 
 
 Kiểm tra lại code cần đẩy lên bằng lệnh `git status` hoặc dùng source tree để xem lại sự thay đổi.
 
@@ -62,7 +63,7 @@ Nếu khi chạy `git push` mà git báo lỗi như hình dưới
 
 Chạy lại lệnh `git push` với command như được bôi hồng
 
-4. Open pull request
+### 4. Open pull request
 
 Trước khi tiến hành tạo pull request, hãy đảm bảo code coverage đang là 100% bằng cách vào https://codecov.io và kiểm tra
 
@@ -76,7 +77,7 @@ Hoặc bấm `New pull request` rồi chọn branch ở bước sau
 
 Review code lại lần nữa, thêm tiêu đề, description rồi bấm nút ..
 
-5. Fix comments
+### 5. Fix comments
 
 Dựa vào comment, sửa lại code và đẩy lên. 
 
@@ -88,7 +89,7 @@ Sau đó:
 
 !! Chỉ trả lời sau khi push code
 
-6. Done
+### 6. Done
 
 Task done nếu pull request được merge vào master.
 
