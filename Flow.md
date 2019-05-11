@@ -26,6 +26,22 @@ Mở command line, đầu tiên hãy chắc chắn rằng mình đang ở master
 
 Tạo một branch mới bằng lệnh `git checkout -b <tên branch mới>`
 
+Tên branch phải theo đúng các quy định:
+
+- Chỉ được sử dụng các ký tự thường, chữ số và dấu gạch ngang `-` và dấu phân thư mục `/`
+- Tên có tính gợi nội dung công việc
+- Sử dụng một trong số các prefix sau
+
+    - `feature/` Khi thêm một tính năng (ở đây là bài tập)
+    - `refactore/` Khi muốn cải thiện code
+    - `bugfix/` Khi muốn sửa một lỗi
+
+Ví dụ những tên sau là ổn
+
+- `feature/add-exercise-3`
+- `refactore/use-for-instead-of-recursion`
+- `bugfix/fix-wrong-output-format`
+
 2. Làm bài, thêm mã nguồn, test case... ect
 
 3. Đẩy code lên 
