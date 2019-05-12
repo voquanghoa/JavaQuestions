@@ -67,3 +67,20 @@ Bài 21, 22, 23 viết về ngày tháng: cho biết rằng:
 22. Implement method nhận tham số là ngày/tháng/năm. Trả về số ngày còn lại trong năm đó hoặc throw RuntimeException với message là "Invalid date" nếu ngày/tháng/năm không phù hợp.
 
 23. Implement method nhận tham số là ngày/tháng/năm. Trả về kết quả là thứ trong ngày hoặc throw RuntimeException với message là "Invalid date" nếu ngày/tháng/năm không phù hợp.
+
+24. Viết chương trình nhận số nguyên n, trả về kết quả là số lượng số fibonaci nhỏ hơn hoặc bằng n.
+
+25. Viết chương trình nhận số nguyên m, n. Trả về số nguyên là lượng số fibonci x thỏa mãn `m<= x <= n`
+
+26. Dãy số CrazyFibonacci được định nghĩa như sau.
+
+- Xuất phát bởi 5 số nguyên có giá trị từ 0 đến 9 (chỉ có 1 chữ số)
+- Số tiếp theo bằng tổng của 5 số trước mà chia lấy dư cho 10.
+
+Ví dụ, nếu 5 số đầu tiên (tính từ 0) là `6 2 2 1 4`, số tiếp theo là `(6+2+2+1+4)%10 = 15%10 = 5`, số tiếp theo nữa sẽ là `(2+2+1+4+5)%10 = 4`
+
+Viết chương trình nhận vào a0, a1, a2, a3, a4 là 5 số đầu tiên của dãy và n là một số nguyên, trả về số CrazyFibonacci thứ n.
+
+27. Giai thừa của một số nguyên n là tích của 1*2*...*n. Viết chương trình nhận vào số nguyên n, trả về số lượng chữ số 0 của n!. Ví dụ: n = 10, ta có 10! = 3628800, ta cần trả về 2. Yêu cầu tính toán được với n = 1000000.
+
+28. Viết chương trình tính căn bậc 2 của một số thực không âm bất kỳ bằng phương pháp chia đôi.

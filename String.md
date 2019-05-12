@@ -40,3 +40,12 @@ Ví dụ mã barcode `8938505974194` ta có (8+3+5+5+7+1+4) + 3 * (9+8+0+9+4+9) 
 Viết chương trình kiểm tra tính hợp lệ của một barcode.
 
 15. Một Barcode EAN 13 có 13 số như trên thì con số đầu tiên bên phải qua là số verify. Viết chương trình nhận vào chuỗi số gồm 12 chữ số. Trả về kết quả là chữ số verify để có thể tạo thành một barcode hợp lệ.
+
+16. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính cộng 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
+
+17. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính trừ 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
+
+18. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính nhân 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
+
+19. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính chia 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
+

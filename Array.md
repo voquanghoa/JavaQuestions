@@ -64,3 +64,5 @@ Kết quả mảng một chiều là 1 2 3 4 5 10 15 14 13 12 11 6 7 8 9
 25. Implement method nhận tham số là mảng số nguyên, trả về kết quả là ước chung lớn nhất của của các số trong mảng
 
 26. Implement method nhận tham số là mảng số nguyên, ở mỗi số nguyên, ta đảo ngược thứ tự các chữ số để thành một số nguyên mới. Cuối cùng tính tổng các số nguyên đó và trả về kết quả
+
+27. Implement method nhận tham số là mảng số nguyên và số nguyên k. Trả về mảng kết quả là k số nguyên lớn nhất trong mảng.
