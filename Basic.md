@@ -84,3 +84,7 @@ Viết chương trình nhận vào a0, a1, a2, a3, a4 là 5 số đầu tiên c�
 27. Giai thừa của một số nguyên n là tích của 1*2*...*n. Viết chương trình nhận vào số nguyên n, trả về số lượng chữ số 0 của n!. Ví dụ: n = 10, ta có 10! = 3628800, ta cần trả về 2. Yêu cầu tính toán được với n = 1000000.
 
 28. Viết chương trình tính căn bậc 2 của một số thực không âm bất kỳ bằng phương pháp chia đôi.
+
+29. Viết chương trình dịch [số la mã](https://vi.wikipedia.org/wiki/S%E1%BB%91_La_M%C3%A3) thành số thập phân. Tham khảo http://thuthuatphanmem.vn/so-la-ma-huong-dan-cach-doc-va-viet-so-la-ma/
+
+30. Viết chương trình dịch số thập phân thành số la mã

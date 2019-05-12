@@ -49,5 +49,12 @@
         - findByName(name)
         - findByClassName
         
+4. Implement lớp StackNumber chứa các số nguyên
+
+5. Implement lớp QueueNumber chứa các số nguyên
+
+6. Implement lớp Stack generic
+
+7. Implement lớp Queue generic
 
 
