@@ -47,5 +47,5 @@ Viết chương trình kiểm tra tính hợp lệ của một barcode.
 
 18. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính nhân 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
 
-19. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính chia 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
+19. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính chia lấy phần nguyên 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
 
