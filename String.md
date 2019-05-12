@@ -32,3 +32,11 @@ Viết chương trình xử lý một chuổi ký tự (String)
     Ví dụ `abbbbbbccccd eeffffddbc` thành --> `abcd efdbc`
 
 13. Implement method nhận tham số là hai string, kiểm tra 2 chuỗi đó có bộ ký tự giống nhau (có thể khác về thứ tự) hay không
+
+14. Một [Barcode EAN 13](https://vi.wikipedia.org/wiki/EAN-13) có 13 con số được coi là hợp lệ nếu: tổng của các số ở vị trí lẻ + 3*(tổng các số ở vị trí chẳn) là một số chia hết cho 10.
+
+Ví dụ mã barcode `8938505974194` ta có (8+3+5+5+7+1+4) + 3 * (9+8+0+9+4+9) = 150. 150 chia hết cho 10 nên mã `8938505974194` là hợp lệ.
+
+Viết chương trình kiểm tra tính hợp lệ của một barcode.
+
+15. Một Barcode EAN 13 có 13 số như trên thì con số đầu tiên bên phải qua là số verify. Viết chương trình nhận vào chuỗi số gồm 12 chữ số. Trả về kết quả là chữ số verify để có thể tạo thành một barcode hợp lệ.
