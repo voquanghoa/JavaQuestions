@@ -1,4 +1,4 @@
-## Các nguyên tắc:
+# I. Các nguyên tắc:
 
 ### 1. Về working flow
 
@@ -36,7 +36,7 @@
 ```
 
 
-## Các bước làm bài
+# II. Các bước làm bài
 
 ### 1. Về master tạo branch
 Mở command line, đầu tiên hãy chắc chắn rằng mình đang ở master bằng cách chạy lệnh `git checkout master`
@@ -113,7 +113,7 @@ Sau đó:
 
 Task done nếu pull request được merge vào master.
 
-## Khuyến khích các bạn
+# III. Khuyến khích các bạn
 
 - Trao đổi ý tưởng, vướng mắc với nhau
 - Review code lẫn nhau để
@@ -125,4 +125,4 @@ Task done nếu pull request được merge vào master.
 - Hòa đồng với nhau và với các thành viên khác trong công ty
 
 
-Good luck!!
+# Good luck!!
