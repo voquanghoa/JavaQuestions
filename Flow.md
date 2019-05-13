@@ -38,7 +38,19 @@
 
 # II. Các bước làm bài
 
+Nếu bạn chưa setup git vào máy thì đây là link dành cho bạn [Git setup](https://github.com/voquanghoa/Git-Tutorial/blob/master/Install_on_Windows.md)
+
+Nếu bạn chưa có repository thì vào [đây](Init.md) để xem cách tạo repository
+
+Nếu bạn chưa rành về git thì dưới đây là một số links tham khảo
+
+- https://backlog.com/git-tutorial/vn/
+- https://www.tutorialspoint.com/git/
+- https://vietjack.com/git/
+- https://thachpham.com/series/git-co-ban
+
 ### 1. Về master tạo branch
+
 Mở command line, đầu tiên hãy chắc chắn rằng mình đang ở master bằng cách chạy lệnh `git checkout master`
 
 ![Init](Images/Pl1.png)
@@ -50,18 +62,13 @@ Tạo một branch mới bằng lệnh `git checkout -b <tên branch mới>`
 Tên branch phải theo đúng các quy định:
 
 - Chỉ được sử dụng các ký tự thường, chữ số và dấu gạch ngang `-` và dấu phân thư mục `/`
-- Tên có tính gợi nội dung công việc
-- Sử dụng một trong số các prefix sau
-
-    - `feature/` Khi thêm một tính năng (ở đây là bài tập)
-    - `refactore/` Khi muốn cải thiện code
-    - `bugfix/` Khi muốn sửa một lỗi
+- Tên nhánh phải phát biểu được rõ ràng chủ đề công việc đang làm nhưng cũng đừng quá dài dòng
 
 Ví dụ những tên sau là ổn
 
-- `feature/add-exercise-3`
-- `refactore/use-for-instead-of-recursion`
-- `bugfix/fix-wrong-output-format`
+- `add-exercise-3`
+- `use-for-instead-of-recursion`
+- `fix-wrong-output-format`
 
 ### 2. Làm bài, thêm mã nguồn, test case... ect
 
