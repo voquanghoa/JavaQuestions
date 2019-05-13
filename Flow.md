@@ -16,6 +16,26 @@
 - Phải follow chuẩn convention https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
 - Nếu không chắc chắn về một convention nào --> đặt câu hỏi, google ...
 
+## 4. Report
+
+- Áp dụng daily report. Các bạn phải báo cáo tiến độ công việc vào tất cả các ngày trong tuần (kể cả ngày đó bạn không lên công ty hoặc không làm gì cả)
+
+- Báo cáo được nhắn trên Slack trước 6h tối mỗi ngày.
+
+- Sử dụng mẫu báo cáo
+
+```
+1. Những gì đã làm được trong ngày?
+    <...>
+2. Những công việc bạn dự định làm ngày mai?
+    <...>
+3. Vấn đề bạn đang gặp phải là gì?
+    <...>
+4. Câu hỏi, ý kiến khác của bạn.
+    <...>
+```
+
+
 ## Các bước làm bài
 
 ### 1. Về master tạo branch
@@ -92,5 +112,17 @@ Sau đó:
 ### 6. Done
 
 Task done nếu pull request được merge vào master.
+
+## Khuyến khích các bạn
+
+- Trao đổi ý tưởng, vướng mắc với nhau
+- Review code lẫn nhau để
+    - Học được điểm tốt từ code của người khác
+    - Hạn chế lỗi mà người khác đã gặp phải
+    - Tổng sỉ vả người khác khi phát hiện lỗi nhằn giúp họ tiến bộ
+- Trình bày vướng mắc đang có để nhanh chóng giải quyết
+- Lên công ty thường xuyên (ngoài việc lên đầy đủ số buổi yêu cầu)
+- Hòa đồng với nhau và với các thành viên khác trong công ty
+
 
 Good luck!!
