@@ -126,7 +126,7 @@ Task done nếu pull request được merge vào master.
 - Review code lẫn nhau để
     - Học được điểm tốt từ code của người khác
     - Hạn chế lỗi mà người khác đã gặp phải
-    - Tổng sỉ vả người khác khi phát hiện lỗi nhằn giúp họ tiến bộ
+    - Tổng sỉ vả lỗi lầm người khác khi phát hiện lỗi nhằn giúp họ tiến bộ
 - Trình bày vướng mắc đang có để nhanh chóng giải quyết
 - Lên công ty thường xuyên (ngoài việc lên đầy đủ số buổi yêu cầu)
 - Hòa đồng với nhau và với các thành viên khác trong công ty
