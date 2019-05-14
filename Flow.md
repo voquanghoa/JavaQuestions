@@ -16,7 +16,7 @@
 - Phải follow chuẩn convention https://www.oracle.com/technetwork/java/codeconventions-150003.pdf
 - Nếu không chắc chắn về một convention nào --> đặt câu hỏi, google ...
 
-## 4. Report
+### 4. Report
 
 - Áp dụng daily report. Các bạn phải báo cáo tiến độ công việc vào tất cả các ngày trong tuần (kể cả ngày đó bạn không lên công ty hoặc không làm gì cả)
 
