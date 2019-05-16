@@ -33,8 +33,8 @@
 
 13. Tính e với độ chính xác 0.00001 với công thức
     ![E](https://wikimedia.org/api/rest_v1/media/math/render/svg/39a1c93d6f1fda7f20a9e45cd3e6f0c35a5eeb36)
-14. Nhập vào a từ bàn phím, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
-    ![Căn](https://latex.codecogs.com/gif.latex?e=\sum_{n=0}^{\infty&space;}&space;=&space;\frac{1}{0!}&plus;\frac{1}{1!}&plus;\frac{1}{2!}&plus;\frac{1}{3!}&plus;\frac{1}{4!}...)
+14. Nhập vào a, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
+    ![Căn](https://latex.codecogs.com/gif.download?%5Chuge%20f%28n%29%20%3D%20%5Cfrac%7Ba%7D%7B2f%28n%29%7D%20-%20%5Cfrac%7Bf%28n%29%7D%7B2%7D)
 
 15. Nhập a, b, c là 3 cạnh của một tam giác. Kiểm tra tam giác có hợp lệ hay không, nếu tam giác hợp lệ thì in tiếp các thông tin:
     - Diện tích tam giác
