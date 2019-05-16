@@ -34,7 +34,7 @@
 13. Tính e với độ chính xác 0.00001 với công thức
     ![E](https://wikimedia.org/api/rest_v1/media/math/render/svg/39a1c93d6f1fda7f20a9e45cd3e6f0c35a5eeb36)
 14. Nhập vào a, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
-    ![Căn](https://latex.codecogs.com/gif.latex?%5Chuge%20f%28n%29%20%3D%20%5Cfrac%7Ba%7D%7B2f%28n%29%7D%20-%20%5Cfrac%7Bf%28n%29%7D%7B2%7D)
+    ![Căn](https://latex.codecogs.com/gif.latex?%5Chuge%20f%28n%29%20%3D%20%5Cfrac%7Ba%7D%7B2f%28n%29%7D%20&plus;%20%5Cfrac%7Bf%28n%29%7D%7B2%7D)
 
 Với f(n) lúc đầu = a
 
