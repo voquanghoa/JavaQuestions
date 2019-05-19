@@ -219,6 +219,7 @@ Thêm các dòng này vào cuối file
 build/**
 .gradle/**
 .idea/**
+out/**
 ```
 
 ![Init](Images/Init26.png)
