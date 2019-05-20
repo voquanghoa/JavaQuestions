@@ -52,23 +52,7 @@ Với f(n) lúc đầu = a
 
 20. Nhập một số nguyên n, trả về kết quả là tổng của n số fibonacci đầu tiên.
 
-Bài 21, 22, 23 viết về ngày tháng: cho biết rằng:
-
-- Năm chỉ phù hợp nếu 1900 <= năm <= 3000
-- Ngày tính từ 1 ~ (28, 29, 30, 31 tùy tháng)
-- Tháng chỉ phù hợp nếu 1<= tháng <= 12
-- Các tháng 1, 3, 5, 7, 8, 10, 12 có 31 ngày
-- Các tháng 4, 6, 9, 11 có 30 ngày
-- Tháng 2 có 28 ngày với năm thường, 29 ngày với năm nhuận
-- Năm nhuận là năm thỏa mãn 1 trong 2 điều kiện sau
-    - Chi hết cho 4 nhưng không chia hết cho 100
-    - Chia hết cho 400
-
-21. Implement method nhận tham số là ngày/tháng/năm. Trả về số ngày còn lại trong tháng đó hoặc throw RuntimeException với message là "Invalid date" nếu ngày/tháng/năm không phù hợp.
-
-22. Implement method nhận tham số là ngày/tháng/năm. Trả về số ngày còn lại trong năm đó hoặc throw RuntimeException với message là "Invalid date" nếu ngày/tháng/năm không phù hợp.
-
-23. Implement method nhận tham số là ngày/tháng/năm. Trả về kết quả là thứ trong ngày hoặc throw RuntimeException với message là "Invalid date" nếu ngày/tháng/năm không phù hợp.
+21, 22, 23: Skip
 
 24. Viết chương trình nhận số nguyên n, trả về kết quả là số lượng số fibonaci nhỏ hơn hoặc bằng n.
 
