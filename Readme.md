@@ -7,7 +7,4 @@
 - Finally [Bài tập về hướng đối tượng](OOP.md)
 
 
-> Don't copy anything from this repository because it is still being updated.
-
-
 by @[HoaVo](https://github.com/voquanghoa)
