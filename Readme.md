@@ -1,4 +1,4 @@
-# Welcome to Novahub
+# Exercise
 
 - Read this one first: [Quy định](Flow.md)
 - And then: [Bài tập Java cơ bản](Basic.md)
