@@ -14,7 +14,7 @@ Viết chương trình xử lý một chuổi ký tự (String)
 
 6. Xử lý chuỗi bằng cách biến các ký tự hoa thành ký tự thường, các ký tự thường thành ký tự hoa
 
-7. Không sử dụng hàm tìm kiếm có sẵn, tìm vị trí một chuỗi con.
+7. Tìm vị trí một chuỗi con từ một chuỗi cha mà chỉ được dùng hàm `charAt`
 
 8. Chuẩn hóa chuỗi bằng các thao tác
     - Viết hoa tất cả các chữ cái đầu câu
