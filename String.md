@@ -24,7 +24,7 @@ Viết chương trình xử lý một chuổi ký tự (String)
 
 9. Nhận vào một chuổi ký tự chứa toàn các chữ cái (a-z, A-Z). Rút gọn chuỗi bằng cách ở những nơi chữ cái lặp lại, ta viết số lần lặp. Ví dụ `abcccceeeeeefd` sẽ viết thành `abc4e6fd`, `abbbbbbbbbbbbbc` viết là `ab13c`
 
-10. Nhận vào chuổi đã được viết gọn ở câu 22, dịch nó thành chuỗi lúc đầu.
+10. Nhận vào chuổi đã được viết gọn ở câu 9, dịch nó thành chuỗi lúc đầu.
 
 11. Nhận vào một chuổi string là một biểu thức có dạng `<số><phép tính><số>` trong đó `<số>` là số nguyên, `<phép tính>` có thể là +-*/^, >>, << trả về kết quả của biểu thức
 
