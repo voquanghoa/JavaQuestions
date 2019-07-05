@@ -26,16 +26,11 @@
 
 13. Viết chương trình nhận vào một mảng 2 chiều, thực hiện việc quay mảng 90 độ theo chiều kim đồng hồ
 
-14. Viết chương trình chuyển đổi một mảng 2 chiều thành mảng 1 chiều bằng cách đi theo hình xoắn ốc cùng chiều kim đồng hồ. 
+14. Viết chương trình tìm một số nguyên từ mảng một chiều sao cho nếu xóa số đó khỏi mảng thì ta sẽ tạo thành một mảng tăng dần thực sự. (số sau luôn lớn hơn số trước). Trả về thứ tự của số được tìm thấy hoặc -1 nếu không tìm thấy.
 
-Ví dụ ta có mảng
+15. Viết chương trình tìm một mảng con có k phần tử có tổng lớn nhất từ một mảng một chiều.
 
-| 1  | 2  | 3  | 4  | 5  |
-|----|----|----|----|----|
-| 6  | 7  | 8  | 9  | 10 |
-| 11 | 12 | 13 | 14 | 15 |
-
-Kết quả mảng một chiều là 1 2 3 4 5 10 15 14 13 12 11 6 7 8 9
+16. Tạo một mảng số nguyên có các phần tử tăng dần từ một mảng số nguyên bằng cách tăng giá trị của một số phần tử trong mảng. Viết chương trình tạo mảng tăng dần từ một mảng số nguyên như trên sao cho tổng các giá tri các phần tử trong mảng kết quả là nhỏ nhất.
 
 17. Viết chương trình tạo ma trận xoắn ốc có n dòng n cột và được điền các số từ 1 đến n*n. Ví dụ dưới đây với n = 5
 
@@ -48,7 +43,11 @@ Kết quả mảng một chiều là 1 2 3 4 5 10 15 14 13 12 11 6 7 8 9
 
 18. Viết chương trình sắp xếp một ma trận số nguyên theo tứ tự tăng dần từ trên xuống dưới, phải qua trái
 
-19. Viết chương trình sắp xếp một ma trận số nguyên theo tứ tự tăng dần từ hình xoắn ốc
+19. Hai mảng a, b là giống nhau nếu chúng có các phần tử tương ứng giống nhau.
+
+Hai mảng a, b là tương tự nhau nếu có một cách tráo đổi một phần tử thứ x với một phần tử thứ y ở mảng a thì mảng kết quả giống mảng b. Tất nhiên, nếu 2 mảng a, b giống nhau thì chúng cũng tương tự nhau
+
+Viết chương trình kiểm tra 2 mảng số nguyên là tương tự nhau hay không.
 
 20. Viết chương trình tạo ma trận con từ một ma trận các số nguyên ở vị trí x, y và kéo dài n cột, b dòng
 
