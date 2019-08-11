@@ -26,7 +26,17 @@
 
 13. Viết chương trình nhận vào một mảng 2 chiều, thực hiện việc quay mảng 90 độ theo chiều kim đồng hồ
 
-14. Viết chương trình tìm một số nguyên từ mảng một chiều sao cho nếu xóa số đó khỏi mảng thì ta sẽ tạo thành một mảng tăng dần thực sự. (số sau luôn lớn hơn số trước). Trả về thứ tự của số được tìm thấy hoặc -1 nếu không tìm thấy.
+14. Viết chương trình tìm một số nguyên từ mảng một chiều sao cho nếu xóa số đó khỏi mảng thì ta sẽ tạo thành một mảng tăng dần thực sự. (số sau luôn lớn hơn số trước). 
+
+Trả về mảng tăng dần sau khi xóa phần tử hoặc null nếu không tìm thấy.
+
+Ví dụ
+
+| Input  | Output |
+|----|---|
+| [1, 4, 3, 5, 6] | [1, 3, 5, 6] hoặc [1, 4, 5, 6]|
+| [1, 4, 5, 4, 6] | [1, 4, 5, 6] |
+| [1, 1, 1, 1] | null |
 
 15. Viết chương trình tìm một mảng con có k phần tử có tổng lớn nhất từ một mảng một chiều.
 
