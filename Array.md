@@ -35,7 +35,7 @@ Ví dụ
 | Input  | Output | Giải thích |
 |----|---|---|
 | [1, 4, 3, 5, 6] | [1, 3, 5, 6] hoặc [1, 4, 5, 6]| Có 2 cách xóa |
-| [1, 4, 5, 4, 6] | [1, 4, 5, 6] | Xóa số 5 |
+| [1, 4, 5, 4, 6] | [1, 4, 5, 6] | Xóa số 4 |
 | [1, 1, 1, 1] | null | Không tìm thấy cách xóa |
 
 15. Viết chương trình tìm một mảng con có k phần tử có tổng lớn nhất từ một mảng một chiều.
