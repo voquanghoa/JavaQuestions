@@ -20,11 +20,11 @@
 
 10. Viết chương trình chia một mảng số nguyên thành n mảng con có số lượng phần tử bằng nhau (Riêng mảng cuối cùng có thể có số phần tử ít hơn)
 
-11. Viết chương trình tìm ra mãng con bằng cách đảo ngược các số lẻ với nhau và các số chẵn với nhau. Ví dụ `1 2 4 5 6 7 8 10` thành `7 10 8 5 6 1 4 2`
+11. Viết chương trình đếm xem có bao nhiêu số chia hết cho 3 nhưng không chia hết cho 5 trong 1 mảng 1 chiều
 
 12. Viết chương trình chèn một số nguyên x vào một mảng số nguyên đã sắp xếp theo thứ tự tăng dần mà vẫn đảm bảo mảng kết quả tăng dần
 
-13. Viết chương trình nhận vào một mảng 2 chiều, thực hiện việc quay mảng 90 độ theo chiều kim đồng hồ
+13. Viết chương trình tính tổng các số chính phương từ mảng 1 chiều
 
 14. Viết chương trình tìm một số nguyên từ mảng một chiều sao cho nếu xóa số đó khỏi mảng thì ta sẽ tạo thành một mảng tăng dần thực sự. (số sau luôn lớn hơn số trước). Trả về thứ tự của số được tìm thấy hoặc -1 nếu không tìm thấy.
 
@@ -41,7 +41,7 @@
 | 14 | 23 | 22 | 21 | 8 |
 | 13 | 12 | 11 | 10 | 9 |
 
-18. Viết chương trình sắp xếp một ma trận số nguyên theo tứ tự tăng dần từ trên xuống dưới, phải qua trái
+18. Viết chương trình tìm các phần tử cùng xuất hiện trên 2 mảng 1 chiều.
 
 19. Hai mảng a, b là giống nhau nếu chúng có các phần tử tương ứng giống nhau.
 

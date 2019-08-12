@@ -49,3 +49,8 @@ Viết chương trình kiểm tra tính hợp lệ của một barcode.
 
 19. Viết chương trình nhận vào 2 chuổi string biểu diễn 2 số nguyên, thực hiện phép tính chia lấy phần nguyên 2 chuổi string đó và trả về kết quả. Yêu cầu không được chuyển string về dạng số hoặc dùng bất kỳ thư viện nào khác.
 
+20. Viết chương trình sinh mật mã ngẫu nhiên và phải đảm bảo
+- Mật mã có độ dài tối thiểu là 6 và tối đa là 20
+- Mật mã chứa các ký tự là số, chữ hoa, chữ thường
+- Mật mã chứa phải có tối thiểu 1 ký tự số, 1 chữ hoa, 1 chữ thường
+

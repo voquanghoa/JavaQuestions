@@ -6,7 +6,15 @@
 
 3. Viết chương trình nhận vào một số nguyên và trả về cách phân tích số đó ra tích của thừa số nguyên tố. Ví dụ nhập vào 600 thì cần phải trả về `2 * 2 * 2 * 3 * 5 * 5`
 
-4. Tương tự bài 3 nhưng cần in 600 thành `2^3 * 3 * 5^2`
+4. Viết chương trình nhận vào 2 số nguyên a, b
+
+Tính:
+- a + b
+- a * b
+- a - b
+- a / b
+- a or b
+- a mũ b
 
 5. Số fibonaci là dãy số bắt đầu từ 1 1 và sau đó, số tiếp theo bằng 2 số trước cộng lại. Tức là `1 1 2 3 5 8 ....`. Nhập vào số nguyên n, in ra danh sách những số fibonaci không lớn hơn n.
 
@@ -24,15 +32,16 @@
 
 10. Viết chương trình tính pi với độ sai số 0.00001 bằng công thức
     ![Pi](https://wikimedia.org/api/rest_v1/media/math/render/svg/fdafa8bd24ce2b6fd518a3cf253ad1ef409388a6)
-11. Một ngân hàng trả lãi 100% sau 1 năm. Ví dụ mình gửi tiết kiệm 100 đồng thì sau 1 năm mình nhận về 200 đồng. Chia 1 năm thành n khoảng thời gian bằng nhau và tính lãi lũy tiến 100/n. Ví dụ n = 2 thì mình sẽ có mỗi khoảng thời gian là 6 tháng và lãi lũy tiến 50%. Lúc đó số tiền mình nhận được là 225 đồng. (Gốc 100 đồng, sau 6 tháng thành 100 + 50%= 150 đồng, sau 1 năm thành 150 + 50% = 225 đồng)
+11. Năm nhuận là năm phải thỏa mãn các điều kiện:
+    - Chia hết cho 4
+    - Nếu chia hết cho 100 thì phải chia hết cho 400
 
+Viết chương trình tìm các năm nhuận từ năm 1900 đến năm 3000
 
-    Viết chương trình nhận vào số nguyên dương n là số khoảng thời gian, tính số tiền mình sẽ được nhận sau 1 năm.
-12. Tính biểu thức sau đây với n 
-    ![Biểu thức](https://latex.codecogs.com/gif.latex?s=\frac{1}{0!}&plus;\frac{1}{1!}&plus;\frac{1}{2!}&plus;\frac{1}{3!}&plus;...&plus;\frac{1}{n!})
+12. Viết chương trình nhận vào một số nguyên từ 1 -- 7 là thứ tự của các ngày trong tuần và in ra tên của ngày : 1-> Sunday, 2-> Monday, .. 
 
-13. Tính e với độ chính xác 0.00001 với công thức
-    ![E](https://wikimedia.org/api/rest_v1/media/math/render/svg/39a1c93d6f1fda7f20a9e45cd3e6f0c35a5eeb36)
+13. Viết chương trình nhận vào một số nguyên từ 1 -- 12, cho ra tên của tháng tương ứng
+
 14. Nhập vào a, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
     ![Căn](https://latex.codecogs.com/gif.latex?%5Chuge%20f%28n%29%20%3D%20%5Cfrac%7Ba%7D%7B2f%28n%29%7D%20&plus;%20%5Cfrac%7Bf%28n%29%7D%7B2%7D)
 
