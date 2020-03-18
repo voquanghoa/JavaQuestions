@@ -23,27 +23,25 @@
 10. Viết chương trình tính pi với độ sai số 0.00001 bằng công thức
     ![Pi](https://wikimedia.org/api/rest_v1/media/math/render/svg/fdafa8bd24ce2b6fd518a3cf253ad1ef409388a6)
 
-11. Viết chương trình nhận vào một số nguyên từ 1 -- 7 là thứ tự của các ngày trong tuần và in ra tên của ngày : 1-> Sunday, 2-> Monday, .. 
+11. Viết chương trình nhận vào 3 số nguyên là ngày, tháng, năm, cho ra tên của thứ tương ứng. Ví dụ nhập vào ngày = 18, tháng = 3, năm = 2020 --> Thứ = Wednesday
 
-12. Viết chương trình nhận vào 3 số nguyên là ngày, tháng, năm, cho ra tên của thứ tương ứng. Ví dụ nhập vào ngày = 18, tháng = 3, năm = 2020 --> Thứ = Wednesday
+12. Viết chương trình nhận vào một số nguyên từ 1 -- 12, cho ra tên của tháng tương ứng
 
-13. Viết chương trình nhận vào một số nguyên từ 1 -- 12, cho ra tên của tháng tương ứng
-
-14. Nhập vào a, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
+13. Nhập vào a, tính căn bậc hai của a với độ chính xác 0.0001 bằng công thức
     ![Căn](https://latex.codecogs.com/gif.latex?%5Chuge%20f%28n%29%20%3D%20%5Cfrac%7Ba%7D%7B2f%28n%29%7D%20&plus;%20%5Cfrac%7Bf%28n%29%7D%7B2%7D)
 
 Với f(n) lúc đầu = a
 
     
-15. Tìm những số nguyên n có m chữ số thỏa mãn điều kiện: tổng của các chữ số của n khi lũy thừa hệ số m thì đúng bằng n. Ví dụ n=153 là hợp lệ vì m=3, 1^3 + 5^3 + 3^3 = 153 (Giới hạn 2<=m<=5).
+14. Tìm những số nguyên n có m chữ số thỏa mãn điều kiện: tổng của các chữ số của n khi lũy thừa hệ số m thì đúng bằng n. Ví dụ n=153 là hợp lệ vì m=3, 1^3 + 5^3 + 3^3 = 153 (Giới hạn 2<=m<=5).
 
-16. Số 23 khi viết nhị phân sẽ là 10111 khi viết ngược lại thành 11101 và nó thành số 29. Nhập số nguyên n và tìm số m bằng cách viết ngược thứ tự số binary như trên.
+15. Số 23 khi viết nhị phân sẽ là 10111 khi viết ngược lại thành 11101 và nó thành số 29. Nhập số nguyên n và tìm số m bằng cách viết ngược thứ tự số binary như trên.
 
-17. Viết chương trình nhận số nguyên n, trả về kết quả là số lượng số fibonaci nhỏ hơn hoặc bằng n.
+16. Viết chương trình nhận số nguyên n, trả về kết quả là số lượng số fibonaci nhỏ hơn hoặc bằng n.
 
-18. Viết chương trình tính căn bậc 2 của một số thực không âm bất kỳ bằng phương pháp chia đôi.
+17. Viết chương trình tính căn bậc 2 của một số thực không âm bất kỳ bằng phương pháp chia đôi.
 
-19. Viết chương trình dịch [số la mã](https://vi.wikipedia.org/wiki/S%E1%BB%91_La_M%C3%A3) thành số thập phân. Tham khảo http://thuthuatphanmem.vn/so-la-ma-huong-dan-cach-doc-va-viet-so-la-ma/
+18. Viết chương trình dịch [số la mã](https://vi.wikipedia.org/wiki/S%E1%BB%91_La_M%C3%A3) thành số thập phân. Tham khảo http://thuthuatphanmem.vn/so-la-ma-huong-dan-cach-doc-va-viet-so-la-ma/
 
-20. Viết chương trình dịch số thập phân thành số la mã
+19. Viết chương trình dịch số thập phân thành số la mã
 
