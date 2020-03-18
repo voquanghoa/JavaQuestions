@@ -4,6 +4,7 @@
 
 - Chỉ làm 1 bài trên 1 branch và có 1 pull request
 - Chỉ open pull request nếu CircleCI xanh và CodeCov báo 100%
+- Tự self-review cẩn thận trước khi xác nhận open pull request
 
 ### 2. Về unit test
 
@@ -114,22 +115,11 @@ Sau đó:
 - Câu hỏi: nếu có thắc mắc
 - Thảo luận: nếu muốn cãi lộn nhiều hơn
 
-!! Chỉ trả lời sau khi push code
+!! Chỉ trả lời review comment sau khi push code
 
 ### 6. Done
 
 Task done nếu pull request được merge vào master.
-
-# III. Khuyến khích các bạn
-
-- Trao đổi ý tưởng, vướng mắc với nhau
-- Review code lẫn nhau để
-    - Học được điểm tốt từ code của người khác
-    - Hạn chế lỗi mà người khác đã gặp phải
-    - Tổng sỉ vả lỗi lầm người khác khi phát hiện lỗi nhằn giúp họ tiến bộ
-- Trình bày vướng mắc đang có để nhanh chóng giải quyết
-- Lên công ty thường xuyên (ngoài việc lên đầy đủ số buổi yêu cầu)
-- Hòa đồng với nhau và với các thành viên khác trong công ty
 
 
 # Good luck!!
