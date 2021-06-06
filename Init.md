@@ -34,6 +34,28 @@ Sau khi dự án được tạo, đợi một lúc để IDE đồng bộ cấu 
 
 ![Init](Images/Init8.png)
 
+Mở file build.gradle và cập nhật phần cuối file
+
+```gradle
+dependencies {
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.7.2")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:5.7.2")
+}
+
+test {
+    useJUnitPlatform()
+}
+```
+
+Bấm vào biểu tượng như dưới để cập nhật
+
+![Init](Images/lgc.png)
+
+
+Tham khảo [Configuring Test Engines](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle-engines-configure)
+
+
+
 Ta thêm class `Demo` vào gói main/java
 
 ![Init](Images/Init9.png)
@@ -60,9 +82,9 @@ public class Demo {
 Thêm class `DemoTest` vào gói test/java với nội dung
 
 ```java
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class DemoTest {
 
@@ -91,6 +113,8 @@ Chạy test
 Nếu kết quả nhận được toàn màu xanh là done
 
 ![Init](Images/Init11.png)
+
+Tham khảo [Writing Tests](https://junit.org/junit5/docs/current/user-guide/#writing-tests)
 
 ## 4. Cấu hình CircleCI và Codecov
 
