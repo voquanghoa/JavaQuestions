@@ -113,7 +113,7 @@ Sau đó:
 
 - Trả lời ngắn gọn `Done`: nếu đã fix
 - Câu hỏi: nếu có thắc mắc
-- Thảo luận: nếu muốn cãi lộn nhiều hơn
+- Thảo luận thêm
 
 !! Chỉ trả lời review comment sau khi push code
 
